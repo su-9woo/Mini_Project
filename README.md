@@ -1,15 +1,36 @@
-아래는 수정된 전문입니다:
+다음은 깔끔하고 일목요연하게 정리된 프로젝트 README입니다:
 
 ---
 
-# 1. Project Overview (프로젝트 개요)
+# 십오야 프로젝트
 
-- **프로젝트 이름**: 새참  
-- **프로젝트 설명**: 프로젝트  
+## 1. 프로젝트 개요
 
-<br/><br/>
+### 프로젝트 이름  
+**십오야**
 
-# 2. Team Members (팀원 및 팀 소개)
+### 프로젝트 설명  
+**프로젝트 선정 이유**  
+- 지금까지 배운 수업 내용을 기반으로 HTML, CSS, JavaScript를 활용한 프로젝트  
+- 회원가입 서비스와 게시판 서비스 기반의 웹사이트 필요  
+- 시각적인 효과가 두드러지는 페이지 제작 목표  
+
+**프로젝트 의도 및 목표**  
+- **의도**: 배운 내용 복습 및 파이널 프로젝트 준비  
+- **목표**: 기존 코드 복습 및 필요한 기능 직접 구현하여 코드 이해도 향상  
+
+**사례 조사 및 주제 선정 이유**  
+- 기존 음악 웹사이트들은 단순히 음악 정보 제공 및 감상에 중점  
+- 노래 및 아티스트에 대한 사용자 의견 교환의 어려움 존재  
+
+### 기대 효과  
+- 사용자 편의성 증대: 번거로운 사이트 이동 불필요  
+- 개인화된 플레이리스트 제작 및 공유 가능  
+- 실시간 차트 및 장르별 인기 차트 확인 가능  
+
+---
+
+## 2. 팀원 및 팀 소개
 
 | 이수연 | 이시연 | 유기민 | 조다은 | 김태우 |
 |:------:|:------:|:------:|:------:|:------:|
@@ -17,83 +38,87 @@
 | PL | FE | FE | FE | FE |
 | [GitHub](https://github.com/LDK1009) | [GitHub](https://github.com/SinYusi) | [GitHub](https://github.com/nay3on) | [GitHub](https://github.com/conconcc) | [GitHub](https://github.com/su-9woo) |
 
-<br/><br/>
+---
 
-# 3. Key Features (주요 기능)
+## 3. 주요 기능
 
-- **회원가입**:  
-  - 회원가입 시 DB에 유저 정보가 등록됩니다.
+### 사용자 관련 기능  
+- **회원가입**: 사용자 정보를 DB에 등록  
+- **로그인/로그아웃**: 인증 정보를 활용한 로그인  
 
-- **로그인**:  
-  - 사용자 인증 정보를 통해 로그인합니다.
+### 음악 관련 기능  
+- **음악 실행**:  
+  - 40초간 미리듣기 제공  
+  - 앨범 사진, 노래 이름, 아티스트 표시  
+  - 음량 조절 가능  
+  - 최근 재생목록 버튼으로 이전 기록 확인  
 
-- **잔액 충전**
+- **음악/아티스트 검색**:  
+  - 음악 검색: 장르, 발매일, 조회수, 좋아요 정보 표시  
+  - 아티스트 검색: 이름, 그룹/솔로 여부, 데뷔일, 소속사 정보 제공  
 
-- **결제**
+- **플레이리스트 기능**:  
+  - 사용자 개인화 플레이리스트 생성  
 
-- **장바구니 보기**
+### 게시판 기능  
+- 자유게시판, 아티스트 추천, 노래 추천 게시글 기능  
+- 게시글에 URL 첨부 및 파일 다운로드 지원  
 
-- **카테고리별 가게 보기**
-
-- **가게별 음식 보기**
-
-<br/><br/>
-
-# 4. Tasks & Responsibilities (작업 및 역할 분담)
-
-| 이름 | 역할 | 담당 작업 |
-|-----------------|-----------------|-----------------|
-| **이수연** | <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="이수연" width="100"> | <ul><li>프로젝트 계획 및 관리</li><li>팀 리딩 및 커뮤니케이션</li><li>커스텀훅 개발</li></ul> |
-| **이시연** | <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="이시연" width="100"> | <ul><li>메인 페이지 개발</li><li>동아리 만들기 페이지 개발</li><li>커스텀훅 개발</li></ul> |
-| **유기민** | <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="유기민" width="100"> | <ul><li>홈 페이지 개발</li><li>로그인 페이지 개발</li><li>동아리 찾기 페이지 개발</li><li>동아리 프로필 페이지 개발</li><li>커스텀훅 개발</li></ul> |
-| **조다은** | <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="조다은" width="100"> | <ul><li>회원가입 페이지 개발</li><li>마이 프로필 페이지 개발</li><li>커스텀훅 개발</li></ul> |
-| **김태우** | <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="김태우" width="100"> | <ul><li>기타 페이지 및 기능 개발</li><li>UI 개선</li></ul> |
-
-<br/><br/>
-
-# 5. Technology Stack (기술 스택)
-
-## 5.1 Language
-
-|  |  |
-|-----------------|-----------------|
-| HTML5 | <img src="https://github.com/user-attachments/assets/2e122e74-a28b-4ce7-aff6-382959216d31" alt="HTML5" width="100"> |
-| CSS3 | <img src="https://github.com/user-attachments/assets/c531b03d-55a3-40bf-9195-9ff8c4688f13" alt="CSS3" width="100"> |
-| JavaScript | <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="JavaScript" width="100"> |
-
-<br/>
-
-## 5.2 Frontend
-
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| React | <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 18.3.1 |
-| StyledComponents | <img src="https://github.com/user-attachments/assets/c9b26078-5d79-40cc-b120-69d9b3882786" alt="StyledComponents" width="100"> | 6.1.12 |
-| MaterialUI | <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100"> | 5.0.0 |
-| DayJs | <img src="https://github.com/user-attachments/assets/3632d7d6-8d43-4dd5-ba7a-501a2bc3a3e4" alt="DayJs" width="100"> | 1.11.12 |
-
-<br/>
-
-## 5.3 Backend
-
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| Firebase | <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100"> | 10.12.5 |
-
-<br/>
-
-## 5.4 Cooperation
-
-|  |  |
-|-----------------|-----------------|
-| Git | <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="Git" width="100"> |
-| Git Kraken | <img src="https://github.com/user-attachments/assets/32c615cb-7bc0-45cd-91ea-0d1450bfc8a9" alt="Git Kraken" width="100"> |
-| Notion | <img src="https://github.com/user-attachments/assets/34141eb9-deca-416a-a83f-ff9543cc2f9a" alt="Notion" width="100"> |
-
-<br/>
+### 홈페이지 주요 기능  
+- 장르별 차트, 노래 TOP 차트, 아티스트별 차트 제공  
+- 좋아요 기반 추천 기능  
+- 실시간 차트 확인  
 
 ---
 
+## 4. 작업 및 역할 분담
+
+| 이름 | 역할 | 담당 작업 |
+|-----------------|-----------------|-----------------|
+| **이수연** | 검색, 인덱스 | 검색, 헤더/푸터 제작 및 CSS |
+| **이시연** | UI 디자인 | 플레이리스트, 로그인, 회원가입 UI 디자인 |
+| **유기민** | 프로젝트 총괄 | 전반적인 프로젝트 관리 |
+| **조다은** | 데이터 관리 | 마이 프로필 페이지 및 DB 연동 |
+| **김태우** | 게시판 개발 | 게시글 및 댓글 관리 페이지 개발 |
+
+---
+
+## 5. 기술 스택
+
+### 5.1 Language  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**
+
+### 5.2 Frontend  
+- React (18.3.1)  
+- Styled Components (6.1.12)  
+- Material-UI (5.0.0)  
+- DayJs (1.11.12)  
+
+### 5.3 Backend  
+- Java (Spring Boot)  
+- Oracle Database  
+- IntelliJ IDEA  
+
+### 5.4 기타  
+- Python (웹 크롤링)  
+- AJAX, jQuery  
+
+---
+
+## 6. 벤치마킹 사례
+
+- **플로 (FLO)**: 전체적인 UI 디자인 참고  
+- **지니 (Genie)**: 아티스트 소개 페이지 참고  
+- **멜론 (Melon)**: 노래 소개 UI 및 웹 크롤링 활용  
+- **스포티파이 (Spotify)**: 다크 모드 UI 참고  
+
+---
+
+## 7. 프로젝트 구조
+
+```plaintext
 # 6. Project Structure (프로젝트 구조)
 
 ```plaintext
@@ -179,3 +204,8 @@ project/
 │   │   │   │   │   │   ├── mypage.html
 ├── .gitignore                   # Git 무시 파일 목록
 ├── README.md                    # 프로젝트 개요 및 사용법
+```
+
+---  
+
+📌 더 자세한 내용은 [GitHub Repository](https://gptonline.ai/ko/)를 참고하세요. 
