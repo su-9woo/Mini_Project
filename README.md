@@ -1,7 +1,3 @@
-다음은 깔끔하고 일목요연하게 정리된 프로젝트 README입니다:
-
----
-
 # 십오야 프로젝트
 
 ## 1. 프로젝트 개요
@@ -91,15 +87,12 @@
 - **JavaScript**
 
 ### 5.2 Frontend  
-- React (18.3.1)  
-- Styled Components (6.1.12)  
-- Material-UI (5.0.0)  
-- DayJs (1.11.12)  
+- IntelliJ IDEA  
 
 ### 5.3 Backend  
 - Java (Spring Boot)  
 - Oracle Database  
-- IntelliJ IDEA  
+
 
 ### 5.4 기타  
 - Python (웹 크롤링)  
